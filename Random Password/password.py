@@ -10,4 +10,3 @@ for a in range(length):
 
 
 print(password)
-#gnkfngk
