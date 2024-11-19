@@ -1,3 +1,5 @@
+#Todo list for daily purposes. A basic level python project.
+
 def task():
     tasks=[]
 
