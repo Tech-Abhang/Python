@@ -1,15 +1,19 @@
 def task():
     tasks=[]
+
+    #greeting
     print("WELCOME TO THE TASK MANAGEMENT APP")
 
     total_task= int(input("Enter number of tasks you want to add : "))
+    #To get number for input by user
+
     for i in range(1,total_task+1):
         task_name=input(f"enter yout task {i} : ")
         tasks.append(task_name)
 
     print(f"Today`s tasks are {tasks}")
 
-    while True:
+    while True: #to keep modifing todo list
         operation = int(input("Enter 1 to ADD \n Enter 2 to UPDATE \n Enter 3 to DELETE \n Enter 4 to VIEW \n Enter 5 to EXIT \n enter number : " ))
         if operation == 1:
             add=input("Task you would like to add : ")
