@@ -1,3 +1,5 @@
+#To make random password for websites basic level project
+ 
 import random
 
 length=int(input("enter a length : "))
@@ -9,4 +11,4 @@ for a in range(length):
     password+=random.choice(char)
 
 
-print(password)
+print("Passowrd is: ",password)
